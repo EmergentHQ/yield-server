@@ -1,8 +1,8 @@
 const { default: BigNumber } = require('bignumber.js');
 const utils = require('../utils');
 
-const baseUrl = 'https://twap-api.integral.link/api/v5/pools';
-const mainnetUrl = `${baseUrl}?network=Mainnet`
+const baseUrl = 'https://twap-api.integral.link/api/v5/pools?apiKey=00Gfs4iNa/XJDBkF+/X83SRqx3MXXAngJMkpx3lM/TU=';
+const mainnetUrl = `${baseUrl}&network=Mainnet`
 
 const chains = {
   "eth": "ethereum",
