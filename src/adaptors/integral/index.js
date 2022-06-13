@@ -1,8 +1,8 @@
 const { default: BigNumber } = require('bignumber.js');
 const utils = require('../utils');
 
-const baseUrlSize = 'https://size-api.integral.link/api/v5/pools?apiKey=00Gfs4iNa/XJDBkF+/X83SRqx3MXXAngJMkpx3lM/TU=';
-const baseUrlFive = 'https://five-api.integral.link/api/v1/pools?apiKey=00Gfs4iNa/XJDBkF+/X83SRqx3MXXAngJMkpx3lM/TU=';
+const baseUrlSize = 'https://size-api.integral.link/api/v5/pools?apiKey=00Gfs4iNa%2FXJDBkF%2B%2FX83SRqx3MXXAngJMkpx3lM%2FTU=';
+const baseUrlFive = 'https://five-api.integral.link/api/v1/pools?apiKey=00Gfs4iNa%2FXJDBkF%2B%2FX83SRqx3MXXAngJMkpx3lM%2FTU=';
 const mainnetUrlSize = `${baseUrlSize}&network=Mainnet`
 const mainnetUrlFive = `${baseUrlFive}&network=Mainnet`
 
